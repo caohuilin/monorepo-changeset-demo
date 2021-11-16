@@ -1,3 +1,3 @@
 export default function () {
-  return 'module-1';
+  return 'module-test-1';
 }
