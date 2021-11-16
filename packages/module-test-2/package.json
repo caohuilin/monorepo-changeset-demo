@@ -1,5 +1,5 @@
 {
-  "name": "@modern-js-test/module-test-2",
+  "name": "@modernjs-test/module-test-2",
   "version": "0.1.1",
   "jsnext:source": "./src/index.ts",
   "types": "./dist/types/index.d.ts",
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7",
-    "@modern-js-test/module-test-1": "workspace:^0.1.1"
+    "@modernjs-test/module-test-1": "workspace:^0.1.1"
   },
   "peerDependencies": {
     "react": "^17"

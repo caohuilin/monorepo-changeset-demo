@@ -40,10 +40,10 @@ importers:
   packages/module-test-2:
     specifiers:
       '@babel/runtime': ^7
-      '@modern-js-test/module-test-1': workspace:^0.1.0
       '@modern-js/module-tools': ^1.0.0
       '@modern-js/plugin-jarvis': ^1.0.0
       '@modern-js/plugin-testing': ^1.0.0
+      '@modernjs-test/module-test-1': workspace:^0.1.1
       '@types/jest': ^26.0.9
       '@types/node': ^14
       '@types/react': ^17
@@ -53,7 +53,7 @@ importers:
       typescript: ^4
     dependencies:
       '@babel/runtime': 7.16.3
-      '@modern-js-test/module-test-1': link:../module-test-1
+      '@modernjs-test/module-test-1': link:../module-test-1
     devDependencies:
       '@modern-js/module-tools': 1.1.0_typescript@4.4.4
       '@modern-js/plugin-jarvis': 1.1.0_typescript@4.4.4
@@ -8032,7 +8032,7 @@ packages:
     dev: true
 
   /fsevents/2.3.2:
-    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=}
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -9999,7 +9999,7 @@ packages:
     dev: true
 
   /make-dir/2.1.0:
-    resolution: {integrity: sha1-XwMQ4YuL6JjMBwCSlaMK5B6R5vU=}
+    resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==}
     engines: {node: '>=6'}
     requiresBuild: true
     dependencies:

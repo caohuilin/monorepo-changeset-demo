@@ -1,4 +1,4 @@
-# @modern-js-test/module-test-1
+# @modernjs-test/module-test-1
 
 ## 0.1.1
 ### Patch Changes
