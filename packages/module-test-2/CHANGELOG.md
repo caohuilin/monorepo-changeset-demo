@@ -1,5 +1,13 @@
 # @modernjs-test/module-test-2
 
+## 0.1.4
+
+### Patch Changes
+
+- 9d49c17: feat: test publish
+- Updated dependencies [9d49c17]
+  - @modernjs-test/module-test-1@0.1.4
+
 ## 0.1.3
 
 ### Patch Changes
