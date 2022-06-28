@@ -28,5 +28,12 @@ jobs:
 
       - name: Create Release Pull Request
         uses: changesets/action@v1
+        with:
+          version: pnpm run bump
+          publish: pnpm run release
+          commit: Release v1.0.0
+          title: Release v1.0.0
+          setupGitUser: caohuilin
+          createGithubReleases: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
