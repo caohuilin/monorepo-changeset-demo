@@ -31,10 +31,11 @@ jobs:
       - name: Create Release Pull Request
         uses: changesets/action@v1
         with:
-          version: pnpm run bump
+          version: pnpm run bump && pnpm install
           publish: pnpm run release
           commit: Release ${{ github.event.inputs.version }}
           title: Release ${{ github.event.inputs.version }}
+          createGithubReleases: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
