@@ -9,7 +9,8 @@
     "pre": "modern pre",
     "release": "modern release",
     "deploy": "modern deploy",
-    "lint": "modern lint"
+    "lint": "modern lint",
+    "gen-release-note": "modern gen-release-note"
   },
   "engines": {
     "node": ">=14.17.6"
