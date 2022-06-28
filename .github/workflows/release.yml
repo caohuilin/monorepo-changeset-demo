@@ -27,7 +27,7 @@ jobs:
         run: pnpm install
 
       - name: Setup Git User
-      - uses: fregante/setup-git-user@v1
+        uses: fregante/setup-git-user@v1
 
       - name: Create Release Pull Request
         uses: changesets/action@v1
