@@ -1,5 +1,13 @@
 # @modernjs-test/module-test-2
 
+## 0.1.6
+
+### Patch Changes
+
+- 06cfad3: test pull request
+- Updated dependencies [06cfad3]
+  - @modernjs-test/module-test-1@0.1.6
+
 ## 0.1.5
 
 ### Patch Changes
