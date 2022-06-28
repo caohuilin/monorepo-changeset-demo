@@ -1,5 +1,11 @@
 # @modernjs-test/module-test-1
 
+## 0.1.5
+
+### Patch Changes
+
+- d74d83d: test create release
+
 ## 0.1.4
 
 ### Patch Changes
