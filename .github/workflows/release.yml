@@ -1,9 +1,11 @@
 name: Release
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release Version(v1.0.0)'
+        required: true
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -26,17 +28,12 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Setup Git User
-        uses: fregante/setup-git-user@v1
-
       - name: Create Release Pull Request
         uses: changesets/action@v1
         with:
           version: pnpm run bump
           publish: pnpm run release
-          commit: Release v1.0.0
-          title: Release v1.0.0
-          setupGitUser: false
-          createGithubReleases: true
+          commit: Release ${{ github.event.inputs.version }}
+          title: Release ${{ github.event.inputs.version }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
